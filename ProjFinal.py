@@ -37,8 +37,8 @@ amplitude = min(ZMaxA)
 plt.plot(T1, Z1[:,0],'r')
 plt.axhline(amplitude,0,30)
 
-plt.xlabel('Tempo (s)')
-plt.ylabel('Deslocamento vertical do carro (m)')
+plt.xlabel('Distância (m)')
+plt.ylabel('Vibração da munição (m)')
 plt.show()
 
 
