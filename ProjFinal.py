@@ -34,7 +34,7 @@ amplitude = min(ZMaxA)
 
 
 
-plt.plot(T1, Z1[:,0],'r')
+plt.plot(T1, Z1[:,0],'ro')
 plt.axhline(amplitude,0,30)
 
 plt.xlabel('Distância (m)')
