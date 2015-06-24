@@ -12,12 +12,12 @@ def func2(Z,t):
     dz2dt = ( ((4*K)/m) * (yp - Z[0]) ) + ( ( (4*d)/m ) * (dypdt - Z[1]) )
     return [dz1dt, dz2dt]
 
-K = 80000
-d = 350
-m = 1500
-A = 0.1
-x = 1
-v = 10
+K = 80000 # Vibração inicial
+d = 350   # 
+m = 1500  # Massa (gramas)
+A = 0.1   # Área lateral (m**2)
+x = 1     # Amplitude (metros)
+v = 1000000    # Velocidade incial
 
 
 z10 = 0
@@ -34,7 +34,7 @@ amplitude = min(ZMaxA)
 
 
 
-plt.plot(T1, Z1[:,0],'ro')
+plt.plot(T1, Z1[:,0],'r')
 plt.axhline(amplitude,0,30)
 
 plt.xlabel('Distância (m)')
