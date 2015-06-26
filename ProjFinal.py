@@ -12,12 +12,12 @@ def func2(Z,t):
     dz2dt = ( ((4*K)/m) * (yp - Z[0]) ) + ( ( (4*d)/m ) * (dypdt - Z[1]) )
     return [dz1dt, dz2dt]
 
-K = 80000 # Vibração inicial
-d = 350   # 
-m = 1500  # Massa (gramas)
+K = 10 # Vibração inicial
+d = 1   # 
+m = 1  # Massa (gramas)
 A = 0.1   # Área lateral (m**2)
 x = 1     # Amplitude (metros)
-v = 1000000    # Velocidade incial
+v = 100    # Velocidade incial
 
 
 z10 = 0
